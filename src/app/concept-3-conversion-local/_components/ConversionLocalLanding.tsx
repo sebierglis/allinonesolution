@@ -51,6 +51,9 @@ type Project = Content["projects"]["items"][number];
 type VideoStory = Content["videos"]["items"][number];
 
 const storageKey = "all-in-one-concept-3-language";
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const assetPath = (path: string) =>
+  path.startsWith("/") ? `${publicBasePath}${path}` : path;
 const serviceIcons = [
   Home,
   Bath,
@@ -66,25 +69,25 @@ const serviceIcons = [
   BriefcaseBusiness,
 ];
 const imageAssets = {
-  hero: "/images/concept-3/hero-kitchen-living.png",
-  kitchen: "/images/concept-3/kitchen-detail.png",
-  bathroom: "/images/concept-3/bathroom-remodel.png",
-  outdoor: "/images/concept-3/outdoor-pavers.png",
-  andres: "/images/concept-3/about-andres-temp.png",
-  consultation: "/images/concept-3/consultation-process.png",
+  hero: assetPath("/images/concept-3/hero-kitchen-living.png"),
+  kitchen: assetPath("/images/concept-3/kitchen-detail.png"),
+  bathroom: assetPath("/images/concept-3/bathroom-remodel.png"),
+  outdoor: assetPath("/images/concept-3/outdoor-pavers.png"),
+  andres: assetPath("/images/concept-3/about-andres-temp.png"),
+  consultation: assetPath("/images/concept-3/consultation-process.png"),
 };
 const sectionOneServiceImages = {
-  office: "/images/concept-3/section-1/service-office.png",
-  livingWall: "/images/concept-3/section-1/service-living-wall.png",
-  openKitchenLiving: "/images/concept-3/section-1/service-open-kitchen-living.png",
-  indoorOutdoor: "/images/concept-3/section-1/service-indoor-outdoor.png",
-  hallway: "/images/concept-3/section-1/service-hallway.png",
-  bathVanity: "/images/concept-3/section-1/service-bath-vanity.png",
-  kitchenBar: "/images/concept-3/section-1/service-kitchen-bar.png",
-  bathLarge: "/images/concept-3/section-1/service-bath-large.png",
-  flooring: "/images/concept-3/section-1/service-flooring.png",
-  closet: "/images/concept-3/section-1/service-closet.png",
-  kitchenWaterView: "/images/concept-3/section-1/service-kitchen-water-view.png",
+  office: assetPath("/images/concept-3/section-1/service-office.png"),
+  livingWall: assetPath("/images/concept-3/section-1/service-living-wall.png"),
+  openKitchenLiving: assetPath("/images/concept-3/section-1/service-open-kitchen-living.png"),
+  indoorOutdoor: assetPath("/images/concept-3/section-1/service-indoor-outdoor.png"),
+  hallway: assetPath("/images/concept-3/section-1/service-hallway.png"),
+  bathVanity: assetPath("/images/concept-3/section-1/service-bath-vanity.png"),
+  kitchenBar: assetPath("/images/concept-3/section-1/service-kitchen-bar.png"),
+  bathLarge: assetPath("/images/concept-3/section-1/service-bath-large.png"),
+  flooring: assetPath("/images/concept-3/section-1/service-flooring.png"),
+  closet: assetPath("/images/concept-3/section-1/service-closet.png"),
+  kitchenWaterView: assetPath("/images/concept-3/section-1/service-kitchen-water-view.png"),
 };
 const featuredServiceImages: Record<number, string> = {
   0: sectionOneServiceImages.kitchenWaterView,
@@ -884,8 +887,8 @@ function ProjectCard({
     >
       <div className="relative">
         <LocalizedBeforeAfterSlider
-          beforeSrc={project.before}
-          afterSrc={project.after}
+          beforeSrc={assetPath(project.before)}
+          afterSrc={assetPath(project.after)}
           beforeAlt={`${project.title} ${content.projects.beforeLabel}`}
           afterAlt={`${project.title} ${content.projects.afterLabel}`}
           beforeLabel={content.projects.beforeLabel}
@@ -1068,8 +1071,8 @@ function ProjectModal({
           <X className="h-5 w-5" aria-hidden="true" />
         </button>
         <LocalizedBeforeAfterSlider
-          beforeSrc={project.before}
-          afterSrc={project.after}
+          beforeSrc={assetPath(project.before)}
+          afterSrc={assetPath(project.after)}
           beforeAlt={`${project.title} ${content.projects.beforeLabel}`}
           afterAlt={`${project.title} ${content.projects.afterLabel}`}
           beforeLabel={content.projects.beforeLabel}
@@ -1297,7 +1300,7 @@ function VideoStoryCard({
       >
         <span className="relative block">
           <Image
-            src={story.thumbnail}
+            src={assetPath(story.thumbnail)}
             alt=""
             width={900}
             height={520}
