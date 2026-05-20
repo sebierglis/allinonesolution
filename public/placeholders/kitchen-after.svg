@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Kitchen after placeholder">
+  <rect width="1200" height="900" fill="#f4efe6"/>
+  <rect y="555" width="1200" height="345" fill="#d6c7b4"/>
+  <rect x="90" y="145" width="1020" height="420" rx="12" fill="#fffaf1"/>
+  <rect x="130" y="205" width="260" height="315" fill="#26231f"/>
+  <rect x="470" y="205" width="260" height="315" fill="#fdf7ee"/>
+  <rect x="810" y="205" width="260" height="315" fill="#26231f"/>
+  <rect x="115" y="545" width="970" height="78" fill="#b98c51"/>
+  <rect x="150" y="645" width="250" height="185" fill="#f7efe4"/>
+  <rect x="475" y="645" width="250" height="185" fill="#f7efe4"/>
+  <rect x="800" y="645" width="250" height="185" fill="#f7efe4"/>
+  <circle cx="420" cy="105" r="33" fill="#d7aa62"/>
+  <circle cx="600" cy="105" r="33" fill="#d7aa62"/>
+  <circle cx="780" cy="105" r="33" fill="#d7aa62"/>
+</svg>

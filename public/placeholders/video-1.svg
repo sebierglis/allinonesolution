@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Video testimonial placeholder">
+  <rect width="900" height="520" fill="#1e2d3a"/>
+  <rect x="70" y="70" width="760" height="380" rx="18" fill="#31495b"/>
+  <circle cx="450" cy="260" r="72" fill="#ffffff" opacity=".92"/>
+  <path d="M430 220v80l70-40z" fill="#1e2d3a"/>
+</svg>

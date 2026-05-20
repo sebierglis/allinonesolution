@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Bathroom after placeholder">
+  <rect width="1200" height="900" fill="#eef4f5"/>
+  <rect y="620" width="1200" height="280" fill="#b9c8cb"/>
+  <rect x="110" y="100" width="440" height="620" fill="#fafafa"/>
+  <path d="M120 180h420M120 260h420M120 340h420M120 420h420M120 500h420M120 580h420" stroke="#d4dee0" stroke-width="8"/>
+  <rect x="675" y="150" width="370" height="455" rx="8" fill="#213241"/>
+  <rect x="720" y="210" width="280" height="260" fill="#eff7f8"/>
+  <rect x="170" y="638" width="390" height="130" fill="#1f2d38"/>
+  <rect x="255" y="525" width="230" height="100" rx="45" fill="#ffffff"/>
+</svg>

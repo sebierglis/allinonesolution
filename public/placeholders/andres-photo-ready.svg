@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Professional portrait area for Andres">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5efe4"/>
+      <stop offset="1" stop-color="#d9c8ad"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect x="80" y="80" width="740" height="940" rx="34" fill="#ffffff" opacity=".34"/>
+  <circle cx="450" cy="405" r="178" fill="#caa47a"/>
+  <path d="M268 370c48-150 320-178 372 0-105-72-260-72-372 0z" fill="#2b251f"/>
+  <rect x="275" y="595" width="350" height="140" rx="70" fill="#caa47a"/>
+  <path d="M135 1000c50-250 575-250 630 0z" fill="#182532"/>
+  <rect x="270" y="845" width="360" height="86" rx="43" fill="#ffffff" opacity=".22"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Bathroom before placeholder">
+  <rect width="1200" height="900" fill="#b8b7b0"/>
+  <rect y="610" width="1200" height="290" fill="#807d73"/>
+  <rect x="120" y="120" width="420" height="600" fill="#d0cbc0"/>
+  <rect x="670" y="165" width="360" height="450" fill="#9c968d"/>
+  <rect x="705" y="235" width="290" height="245" fill="#bdb6a8"/>
+  <rect x="170" y="630" width="380" height="130" fill="#746b5f"/>
+  <rect x="245" y="510" width="230" height="115" rx="45" fill="#d8d1c5"/>
+</svg>

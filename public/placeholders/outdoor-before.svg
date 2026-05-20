@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Outdoor area before placeholder">
+  <rect width="1200" height="900" fill="#b8c2b0"/>
+  <rect y="390" width="1200" height="510" fill="#8a7a5c"/>
+  <path d="M0 410c210-80 360 40 560-35s385-30 640 25v500H0z" fill="#776746"/>
+  <rect x="90" y="235" width="360" height="190" fill="#c7b69d"/>
+  <rect x="145" y="290" width="90" height="135" fill="#7b715f"/>
+  <rect x="275" y="290" width="90" height="135" fill="#7b715f"/>
+</svg>

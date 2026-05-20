@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Outdoor area after placeholder">
+  <rect width="1200" height="900" fill="#dbe8df"/>
+  <rect y="390" width="1200" height="510" fill="#8ab985"/>
+  <path d="M110 485h980v330H110z" fill="#d4c2a7"/>
+  <path d="M110 555h980M110 625h980M110 695h980M110 765h980M210 485v330M340 485v330M470 485v330M600 485v330M730 485v330M860 485v330M990 485v330" stroke="#a58b6b" stroke-width="8"/>
+  <rect x="80" y="220" width="390" height="205" fill="#f7efe4"/>
+  <rect x="155" y="280" width="95" height="145" fill="#243646"/>
+  <rect x="300" y="280" width="95" height="145" fill="#243646"/>
+</svg>
